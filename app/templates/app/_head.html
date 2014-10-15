@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- META TAGS -->
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+		{% load staticfiles %}
+		<title>{% block title%} Grupo 4 | MC857 2s2014 UNICAMP {% endblock %}</title>
+		<!-- CSS FILES -->
+		<link rel='stylesheet' type='text/css' href='{% static "app/libs/bootstrap/css/bootstrap.min.css" %}' />
+		<link rel='stylesheet' type='text/css' href='{% static "app/libs/jquery-ui/jquery-ui.min.css" %}' />
+		<link rel="stylesheet" type='text/css' href='{% static "app/libs/select2/select2.css" %}' />
+		<link rel='stylesheet/less' type='text/css' href='{% static "app/main.less" %} '>
+	</head>
+
+	<body>
+		{% block body %}
+		<h1>IT WORKS!!!</h1>
+		{% endblock %}
+
+		<div class="javascript-loader">
+			<!-- JS FILES -->
+			<script type='text/javascript' src='{% static "app/libs/jquery.min.js" %}'></script>
+			<script type='text/javascript' src='{% static "app/libs/jquery-ui/jquery-ui.min.js" %}'></script>
+			<script type='text/javascript' src='{% static "app/libs/less.min.js" %}'></script>
+			<script type='text/javascript' src='{% static "app/libs/bootstrap/js/bootstrap.min.js" %}' ></script>
+			<script type='text/javascript' src='{% static "app/libs/select2/select2.js" %}' ></script>
+			<script type='text/javascript' src='{% static "app/main.js" %}' ></script>
+		</div>
+	</body>
+
+</html>
