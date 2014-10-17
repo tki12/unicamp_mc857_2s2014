@@ -8,7 +8,9 @@ Repositório do grupo 4 da turma de MC857 da Unicamp, segundo semestre de 2014
 Diretorios e arquivos base
  > Arquivo manage.py : arquivo controlador da aplicacao. Usado para criar banco 
 de dados, iniciar servidor local, fazer testes, etc -> nao modificar
+
  > Diretorio mc857 contem configuracoes gerais -> nao modificar
+
  > Diretorio app contem implementacao do aplicativo base
 
 Detalhes do diretorio app
